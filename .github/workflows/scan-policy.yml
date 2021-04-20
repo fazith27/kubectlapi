@@ -4,7 +4,9 @@ on:
   workflow_run:
     workflows: ["CodeQL"]
     # branches: [ main ]
-    types: [completed]
+    types: 
+      - completed
+      - requested
 
 jobs:
   on-success:
