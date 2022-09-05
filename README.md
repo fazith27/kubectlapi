@@ -23,7 +23,7 @@ Success Response Code | 200
 Success Response Message |  "I am OK !"
 Error Response | NA
 
-### API Name: Kubectl API
+### API Name: Kubectl Python App
 Description | Value
 --- | ---
 Request Resource | /kubectl
