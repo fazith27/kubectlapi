@@ -12,7 +12,7 @@ TOKEN | Slack bot token to validate the request are from slack
 CHANNEL | Channel name from which to execute the slash command 
 COMMAND | Name of slack slash command
 
-## API Specification
+## API Specification - Kubectl Python App
 ### API Name: Health Check API
 Description | Value
 --- | ---
@@ -23,7 +23,7 @@ Success Response Code | 200
 Success Response Message |  "I am OK !"
 Error Response | NA
 
-### API Name: Kubectl Python App
+### API Name: Kubectl Api
 Description | Value
 --- | ---
 Request Resource | /kubectl
