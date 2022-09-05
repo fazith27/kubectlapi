@@ -41,7 +41,7 @@ Slack Response  Message | {"body":"{\"response_type\": \"in_channel\", \"text\":
 > Slack expect a immediate response (with in 3 seconds) to confirm the payload is received, hence sending response code as 200 for all the scenarios even though when there is an error. Actual kubectl response will send back to slack using the *response_url* (slack webhook) receveid in request in a seperate thread.
 
 ## Request Flow
-![Request Flow Image](https://github.com/fazith27/kubectlapi/blob/main/img/request-flow.png)
+![Request Flow Image](https://github.com/fazith27/kubectlapi/blob/main/request-flow.png)
 
 ## Slash command input validation
 * Kubectl queries which are starting with below values will be processed. Rest of the values are responded with Invalid Request response.
