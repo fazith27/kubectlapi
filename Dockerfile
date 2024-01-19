@@ -1,4 +1,4 @@
-FROM python:3.8-alpine
+FROM python:3.13.0a3-alpine
 COPY main.py .
 COPY startup.sh .
 RUN chmod +x startup.sh
